@@ -13,21 +13,30 @@ import CreateAccount from './pages/CreateAccount'
 import CustomerStatus from './pages/CustomerStatus';
 import Logout from './pages/Logout';
 import DeleteAccount from './pages/DeleteAccount'
+import UpdateCustomers from './pages/UpdateCustomers';
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/createcustomer' element={<CreateCustomer />} />
-        <Route path='/' element={<Login />} />
-        <Route path='updatecustomer' element={<UpdateCustomer />}>
-          <Route path=':customerId' element={<UpdateCustomer />} />
+        <Route path='/' element={<Login />} >
+        <Route
+          path="*"
+          element={
+          <main style={{ padding: "1rem" }}>
+              <p>There's nothing here!</p>
+          </main>
+            }
+          />
         </Route>
-        <Route path='deletecustomer' element={<DeleteCustomer />} />
-        <Route path='createaccount' element={<CreateAccount />} />
-        <Route path='deleteaccount' element={<DeleteAccount />} />
-        <Route path='logout' element={<Logout />} />
-        <Route path='customerstatus' element={<CustomerStatus />} />
+        <Route path='/createcustomer' element={<CreateCustomer />} />
+        <Route path='/updatecustomer' element={<UpdateCustomers />} />
+        <Route path='/updatecustomer/:customerId' element={<UpdateCustomer />} />
+        <Route path='/deletecustomer' element={<DeleteCustomer />} />
+        <Route path='/createaccount' element={<CreateAccount />} />
+        <Route path='/deleteaccount' element={<DeleteAccount />} />
+        <Route path='/logout' element={<Logout />} />
+        <Route path='/customerstatus' element={<CustomerStatus />} />
       </Routes>
     </Router>
   )

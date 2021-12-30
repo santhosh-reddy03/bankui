@@ -237,9 +237,9 @@ const CreateCustomer = () => {
                         {StateisnotValid && <p>State is not valid</p>}
                     </div>
                 </div>
-                <div class="md:flex md:items-center">
-                <div class="md:w-1/3"></div>
-                    <div class="md:w-2/3">
+                <div className="md:flex md:items-center">
+                <div className="md:w-1/3"></div>
+                    <div className="md:w-2/3">
                 <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" disabled={!FormIsValid}>Create Customer</button>
                 </div>
                 </div>
