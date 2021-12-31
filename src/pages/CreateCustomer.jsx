@@ -107,7 +107,7 @@ const CreateCustomer = () => {
             <form onSubmit={submitHandler} className="w-full max-w-sm items-center">
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="id">Customer ID</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="id">Customer ID</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -125,7 +125,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="ssnid">SSN-ID</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="ssnid">SSN-ID</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -143,7 +143,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="name">Name</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="name">Name</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -159,7 +159,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="age">Age</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="age">Age</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -175,7 +175,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="address1">Address 1</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="address1">Address 1</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -191,7 +191,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="address2">Address 2</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="address2">Address 2</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -207,7 +207,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="city">City</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="city">City</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
@@ -223,7 +223,7 @@ const CreateCustomer = () => {
                 </div>
                 <div className="md:flex md:items-center mb-6">
                     <div className="md:w-1/3">
-                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="state">State</label>
+                        <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="state">State</label>
                     </div>
                     <div className="md:w-2/3">
                         <input
